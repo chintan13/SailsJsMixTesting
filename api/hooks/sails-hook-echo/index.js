@@ -37,7 +37,8 @@ module.exports = function(sails) {
           controllers: __dirname + '/api/controllers', // Path to the controllers to load
           models: __dirname + '/api/models', // Path to the models to load
           services: __dirname + '/api/services', // Path to the services to load
-          viewes: __dirname + '/api/viewes'
+          // views: __dirname + '/api/views',
+          helpers: __dirname + '/api/helpers'
         },
         err => {
           return next(err);
