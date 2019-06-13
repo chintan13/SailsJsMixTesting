@@ -18,7 +18,7 @@ module.exports.routes = {
    *                                                                          *
    ***************************************************************************/
 
-  '/': { view: 'pages/homepage' },
+  "/": { view: "pages/homepage" },
 
   /***************************************************************************
    *                                                                          *
@@ -31,8 +31,9 @@ module.exports.routes = {
    *                                                                          *
    ***************************************************************************/
 
-  'GET /api/v1/my-clients': { action: 'my-clients' },
+  "GET /api/v1/my-clients": { action: "my-clients" },
 
+  "GET /view-app": { view: "sailsview" },
   // 'get /test': {
   //   controller: 'ExampleController',
   //   action: 'test'
